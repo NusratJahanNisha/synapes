@@ -18,7 +18,6 @@ const AboutUs = () => {
             <Responsibility></Responsibility>
             <OurValues></OurValues>
             </Container>
-
         </div>
     );
 };
