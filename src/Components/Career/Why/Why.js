@@ -1,6 +1,10 @@
 import React from 'react';
 import { ButtonBase, Grid, makeStyles, Paper, Typography } from '@material-ui/core';
 
+
+// -----------------------Why us section of CAREER page---------------------------
+
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -27,7 +31,6 @@ const Why = () => {
     return (
         <div>
             <p style={{ color: "grey" }}>Our people are our future" People are the pivot in our organizational planning. Human Resource plays a key role and human capital forms the most crucial part of our organisation portfolio of privileged assets.</p>
-
             <div style={{ padding: "50px" }}>
                 <div className={classes.root}>
                     <Paper className={classes.paper}>
@@ -53,8 +56,8 @@ const Why = () => {
                                      </Typography>
                                         <Typography variant="body2" gutterBottom>
                                             <p style={{ color: "grey" }}>
-                                                Committed to fostering development and rewarding talent <br/>
-                                                Dedicated to diversity and inclusion at every level of our organization <br/>
+                                                Committed to fostering development and rewarding talent <br />
+                                                Dedicated to diversity and inclusion at every level of our organization <br />
                                                 Adept at recognizing unique skill sets and nurturing our employees’ talents </p>
                                         </Typography>
                                     </Grid>

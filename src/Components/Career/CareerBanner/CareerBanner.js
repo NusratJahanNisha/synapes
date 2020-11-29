@@ -1,5 +1,7 @@
 import React from 'react';
 
+// ----------------------------Banner of CAREER page-------------------------------
+
 const CareerBanner = () => {
     return (
         <div className="banner">

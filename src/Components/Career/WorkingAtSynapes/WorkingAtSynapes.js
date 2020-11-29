@@ -1,6 +1,10 @@
 import React from 'react';
 import { ButtonBase, Grid, makeStyles, Paper, Typography } from '@material-ui/core';
 
+
+// --------------------Working at synapes section of CAREER page-------------------
+
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -21,12 +25,13 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
+
 const WorkingAtSynapes = () => {
     const classes = useStyles();
     return (
         <div>
             <div style={{ padding: "50px" }}>
-                <h1 style={{textAlign:"center"}}>Working At Synapes</h1>
+                <h1 style={{ textAlign: "center" }}>Working At Synapes</h1>
                 <div className={classes.root}>
                     <Paper className={classes.paper}>
                         <Grid container spacing={2} direction="row"

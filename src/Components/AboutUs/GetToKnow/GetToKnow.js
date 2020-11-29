@@ -1,6 +1,10 @@
 import React from 'react';
 import { Grid, makeStyles, Paper } from '@material-ui/core';
 
+
+// -------------------Get to know us section of ABOUT US page---------------------
+
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,

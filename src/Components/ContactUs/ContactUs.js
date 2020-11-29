@@ -3,17 +3,24 @@ import React from 'react';
 import ContactBanner from './ContactBanner/ContactBanner';
 import ContactInfo from './ContactInfo/ContactInfo';
 import MessageUs from './MessageUs/MessageUs';
-import  Delhi  from './Map/Delhi';
+import Delhi from './Map/Delhi';
+import Navbar from '../CommonSections/Navbar/Navbar';
+import Footer from '../CommonSections/Footer/Footer';
+
+
+// --------------------------Whole CONTACT US page-------------------
 
 const ContactUs = () => {
     return (
         <div>
-            <Container>
+            <Navbar></Navbar>
             <ContactBanner></ContactBanner>
-            <ContactInfo></ContactInfo>
-            <MessageUs></MessageUs>
-            <Delhi></Delhi>
+            <Container>
+                <ContactInfo></ContactInfo>
+                <MessageUs></MessageUs>
+                <Delhi></Delhi>
             </Container>
+            <Footer></Footer>
         </div>
     );
 };

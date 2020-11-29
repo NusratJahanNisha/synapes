@@ -1,5 +1,10 @@
 import React from 'react';
 import { Button, ButtonBase, Grid, makeStyles, Paper, Typography } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+
+
+// -----------------Our values section of ABOUT US page-------------------
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -87,11 +92,11 @@ const OurValues = () => {
                 direction="row"
                 justify="space-between"
                 alignItems="flex-start"
-                style={{ paddingRight: "80px", paddingLeft: "80px" }}
+                style={{ paddingRight: "80px", paddingLeft: "80px", margin: "40px" }}
             >
                 <h2>Synapes Life Sciences Pvt. Ltd. the right solution for you and your business</h2>
                 <Button variant="outlined" color="primary">
-                    Contact
+                    <Link style={{ textDecoration: "none" }} to="/contactUs"> Contact</Link>
                 </Button>
             </Grid>
         </div>

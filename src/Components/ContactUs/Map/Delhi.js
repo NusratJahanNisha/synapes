@@ -34,7 +34,7 @@ import React from 'react';
 const Delhi = () => {
     return (
         <div>
-            <h1>Map is here</h1>
+            
         </div>
     );
 };

@@ -1,5 +1,8 @@
 import React from 'react';
 
+
+// -------------------Banner of CONTACT US page-------------------
+
 const ContactBanner = () => {
     return (
         <div className="banner">

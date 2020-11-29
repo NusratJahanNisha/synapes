@@ -1,20 +1,26 @@
 import { Container } from '@material-ui/core';
 import React from 'react';
+import Footer from '../CommonSections/Footer/Footer';
+import Navbar from '../CommonSections/Navbar/Navbar';
 import CareerBanner from './CareerBanner/CareerBanner';
 import EmployeeBenefits from './EmployeeBenefits/EmployeeBenefits';
 import Why from './Why/Why';
 import WorkingAtSynapes from './WorkingAtSynapes/WorkingAtSynapes';
 
+
+// -------------------------Whole CAREER page------------------------------
+
 const Career = () => {
     return (
         <div>
-            <Container>
+            <Navbar></Navbar>
             <CareerBanner></CareerBanner>
-            <Why></Why>
-            <EmployeeBenefits></EmployeeBenefits>
-            <WorkingAtSynapes></WorkingAtSynapes>
+            <Container>
+                <Why></Why>
+                <EmployeeBenefits></EmployeeBenefits>
+                <WorkingAtSynapes></WorkingAtSynapes>
             </Container>
-
+            <Footer></Footer>
         </div>
     );
 };

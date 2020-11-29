@@ -1,6 +1,10 @@
 import React from 'react';
 import { ButtonBase, Grid, makeStyles, Paper, Typography } from '@material-ui/core';
 
+
+// -----------------------------Employee Benefit section of CAREER page-------------------------
+
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -20,6 +24,8 @@ const useStyles = makeStyles((theme) => ({
         maxHeight: '100%',
     },
 }));
+
+
 const EmployeeBenefits = () => {
     const classes = useStyles();
     return (
